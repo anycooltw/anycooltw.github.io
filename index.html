@@ -9,14 +9,19 @@
 </head>
 
 <body>
-<py-script> input("say somthing : ")</py-script>
 <py-script> 
-
+say=input("say somthing : ")
+path = './bin/test.txt'
+f = open(path)
+li=[]
+li.append(say)
+f.writelines(li)
+li.pop()
+f.close()
 </py-script>
-
+ 
  <py-script src="./bin/hello.py">
-
-</body>
+  </body>
 
 
 </html>
