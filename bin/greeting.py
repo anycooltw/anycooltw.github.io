@@ -1,6 +1,6 @@
-
-name=input("What's your name ?  ")
-print("hello "+name+" !")
+print(" What's your name ? ")
+name=input(" ")
+print(" hello "+name+" ! ")
 
 path = './whocame.txt'
 f = open(path,'w')
